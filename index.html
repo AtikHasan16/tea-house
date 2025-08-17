@@ -114,16 +114,26 @@
       </section>
       <!-- Great Tea section start -->
 
-      <section class="great-tea flex justify-between items-center gap-12 mb-28">
+      <section
+        class="great-tea flex justify-between flex-col md:flex-row p-5 items-center gap-12 mb-28"
+      >
         <div
-          class="img-container flex border-2 w-[1000px] h-[500px] border-amber-950"
+          class="img-container md:w-[50%] h-[500px] grid grid-cols-2 grid-rows-3 gap-4"
         >
-          <div class=""></div>
-          <div class=""><img src="./images/fresh-1.png" alt="" /></div>
-          <div></div>
-          <div><img src="./images/fresh-2.png" alt="" /></div>
+          <div
+            class="w-full bg-linear-65 from-[#ffadad] to-[#ffb88981] rounded-xl"
+          ></div>
+          <div class="w-full row-span-2 rounded-xl bg-[#e6a5233f] p-7">
+            <img class="m-auto" src="./images/fresh-1.png" alt="" />
+          </div>
+          <div class="w-full row-span-2 rounded-xl bg-[#58763942] p-7">
+            <img class="m-auto" src="./images/fresh-2.png" alt="" />
+          </div>
+          <div
+            class="w-full bg-linear-65 from-[#D9D9D9] to-[#FFffff] rounded-xl"
+          ></div>
         </div>
-        <div class="text-container">
+        <div class="text-container md:w-[50%]">
           <h1 class="font-extrabold text-5xl mb-10">
             Great Tea, Freshly Presented
           </h1>
