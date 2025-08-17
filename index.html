@@ -163,7 +163,7 @@
       >
         <img
           src="./images/bg_cup.png"
-          class="absolute left-40 bottom-0"
+          class="absolute left-40 bottom-0 hidden md:inline"
           alt=""
         />
         <div
@@ -306,5 +306,80 @@
       </section>
     </main>
     <!-- Footer section start -->
+    <footer
+      class="md:h-[650px] w-full bg-linear-90 from-[#fff5e9] via-[#ffd2d2] to-[#ffc9c9] py-32"
+    >
+      <section class="max-w-[1140px] mx-auto">
+        <!-- first div -->
+        <div class="flex justify-between items-center flex-col md:flex-row">
+          <figure><img src="./images/cup.png" alt="A png" /></figure>
+          <div
+            class="flex justify-center items-center gap-10 flex-col md:flex-row"
+          >
+            <p class="text-xl font-medium text-[#494949]">
+              Ready to get started?
+            </p>
+            <button
+              class="bg-linear-65 from-[#FF0000] to-[#FF8938] rounded-[10px] p-5 w-[200px] text-xl font-bold text-white"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <!-- second div -->
+        <div
+          class="my-20 flex justify-center md:justify-between md:items-baseline text-center flex-col md:text-left md:flex-row"
+        >
+          <div>
+            <h3 class="font-semibold text-xl text-black">Quick Links</h3>
+            <p class="text-[#777777] font-medium py-2.5">Home</p>
+            <p class="text-[#777777] font-medium py-2.5">About Us</p>
+            <p class="text-[#777777] font-medium py-2.5">Insurance</p>
+            <p class="text-[#777777] font-medium py-2.5">Privacy Policy</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-xl text-black">Our service</h3>
+            <p class="text-[#777777] font-medium py-2.5">Life Insurance</p>
+            <p class="text-[#777777] font-medium py-2.5">Life Insurance</p>
+            <p class="text-[#777777] font-medium py-2.5">Life Insurance</p>
+            <p class="text-[#777777] font-medium py-2.5">Life Insurance</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-xl text-black">Help</h3>
+            <p class="text-[#777777] font-medium py-2.5">FAQs</p>
+            <p class="text-[#777777] font-medium py-2.5">Contact Us</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-2xl text-black">
+              Subscribe to our <br />
+              newsletter
+            </h3>
+            <div class="newsletter">
+              <input
+                class="outline-0 border-b-1 my-7"
+                type="email"
+                placeholder="Email address"
+              />
+              <button
+                class="bg-linear-65 from-[#FF0000] to-[#FF8938] p-1 rounded-full text-xl font-bold"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+              <div
+                class="icons flex justify-center md:justify-normal items-center gap-7 my-7"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+                <img src="./images/icons/instagram.png" alt="" />
+                <img src="./images/icons/twittre.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-[#777777] font-medium mb-10">
+          © 2027 UIDesign.to - All rights reserved.
+        </p>
+      </section>
+    </footer>
   </body>
 </html>
